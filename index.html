@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Mars-Time is an experimental Martian clock and calendar inspired by real Mars astronomy."
+    />
+    <title>Mars-Time</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <main class="shell" aria-labelledby="app-title">
+      <section class="clock-panel" aria-live="polite">
+        <p class="eyebrow">Experimental Martian clock</p>
+        <h1 id="app-title">Mars-Time</h1>
+
+        <div class="date" id="marsDate">01.01.0001</div>
+        <div class="time" id="marsTime">00:00:00</div>
+
+        <div class="months-wrap" id="monthsWrap" aria-label="Martian months"></div>
+
+        <dl class="metrics">
+          <div>
+            <dt>Sol</dt>
+            <dd id="solNumber">1</dd>
+          </div>
+          <div>
+            <dt>Year sol</dt>
+            <dd id="yearSol">1</dd>
+          </div>
+          <div>
+            <dt>Sol progress</dt>
+            <dd id="solProgress">0.000%</dd>
+          </div>
+        </dl>
+
+        <div class="info">
+          <p>Time starts at the Mars 3 touchdown epoch: 1971-12-02 13:52:00 UTC.</p>
+          <p>Date format: sol.month.year. Clock format: 25 h / 50 min / 71 sec.</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="./src/mars-time.js"></script>
+  </body>
+</html>
