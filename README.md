@@ -4,6 +4,8 @@ Mars-Time is an experimental Martian clock and calendar inspired by real Mars as
 
 The project is intentionally human-friendly rather than an official scientific standard. It keeps the real Martian sol length as its astronomical base, then displays each sol through a custom clock with 25 hours, 50 minutes per hour, and 71 seconds per minute.
 
+The idea comes from Jascha Lieske, who noted that *The Martian* gave its stranded astronaut a planet, a schedule, and a mission, but no practical local clock for Mars.
+
 ## Time System
 
 - 1 minute = 71 Mars-seconds
@@ -92,3 +94,6 @@ http://localhost:8000
 ## Notes
 
 Mars-Time is experimental. It combines real Mars astronomy with a custom calendar and clock designed for readability, play, and public exploration.
+
+The project is free to use under the MIT License. The original idea is credited to Jascha Lieske.
+
